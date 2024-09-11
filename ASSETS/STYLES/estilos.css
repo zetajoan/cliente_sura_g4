@@ -1,0 +1,32 @@
+.banner{
+    background-image: url("../IMG/banner.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px;
+    z-index: 1;
+}
+.banner2{
+    background-image: url("../IMG/familia.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px;
+   
+}
+.banner::after{
+
+    content: "" ;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.menu{
+    background-color: #00328f;
+
+}
